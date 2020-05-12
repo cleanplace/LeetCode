@@ -13,7 +13,7 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 
 """
 
-class Solution:
+class Solution1:
     def maxProfit(self, prices: List[int]) -> int:
 
         if len(prices) < 2:
@@ -28,3 +28,25 @@ class Solution:
             sell = max(prev_buy + price, prev_sell)
 
         return sell
+
+"""
+hold -----do nothing----->hold
+
+hold -----sell----->notHold_cooldown
+
+notHold -----do nothing -----> notHold
+
+notHold -----buy-----> hold
+
+notHold_cooldown -----do nothing----->notHold
+"""
+
+class Solution2:
+    def maxProfit(self, prices: List[int]) -> int:
+
+        notHold, notHold_cooldown, hold = 0, float('-inf'), float('-inf')
+
+        for p in prices:
+            hold, notHold, notHold_cooldown = max(hold, notHold - p), max(notHold, notHold_cooldown), hold + p
+
+        return max(notHold, notHold_cooldown)
