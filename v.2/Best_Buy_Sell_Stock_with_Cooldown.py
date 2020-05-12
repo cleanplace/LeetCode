@@ -29,19 +29,19 @@ class Solution1:
 
         return sell
 
-"""
-hold -----do nothing----->hold
-
-hold -----sell----->notHold_cooldown
-
-notHold -----do nothing -----> notHold
-
-notHold -----buy-----> hold
-
-notHold_cooldown -----do nothing----->notHold
-"""
 
 class Solution2:
+    """
+    hold -----do nothing----->hold
+
+    hold -----sell----->notHold_cooldown
+
+    notHold -----do nothing -----> notHold
+
+    notHold -----buy-----> hold
+
+    notHold_cooldown -----do nothing----->notHold
+    """
     def maxProfit(self, prices: List[int]) -> int:
 
         notHold, notHold_cooldown, hold = 0, float('-inf'), float('-inf')
