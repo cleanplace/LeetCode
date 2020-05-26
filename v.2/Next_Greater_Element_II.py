@@ -13,6 +13,14 @@ The first 1's next greater number is 2;
 The number 2 can't find next greater number;
 The second 1's next greater number needs to search circularly, which is also 2.
 
+
+문제 이해 예시 :
+[1,2,5,3,4,2]
+[2,5,-1,4,5,5]
+
+[1,5,7,1]
+[5,7,-1,5]
+
 """
 
 import copy
