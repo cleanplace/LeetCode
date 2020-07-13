@@ -1,0 +1,7 @@
+venv/
+.idea/
+
+#비포함 코드
+11_st_code_test/
+castle_peak.py
+coin_flipping.py
