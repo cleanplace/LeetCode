@@ -45,6 +45,7 @@ class MyQueue_1:
     def empty(self) -> bool:
         return not self.s1
 
+#T : O(1) / S : O(1)
 class MyQueue_2:
     def __init__(self):
         self.s1 = []
