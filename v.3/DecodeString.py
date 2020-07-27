@@ -11,7 +11,6 @@ For example, there won't be input like 3a or 2[4].
 
 """
 
-
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []
