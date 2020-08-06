@@ -50,6 +50,39 @@ class Solution(object):
         return [heapq.heappop(heap)[1] for _ in range(k)]
 
 
+#trie
+from collections import defaultdict
+class TrieNode(object):
+    def __init__(self):
+        self.children = defaultdict(TrieNode)
+        self.is_word = False
+        self.freq = 0
+
+class Solution:
+    def topKFrequent(self, words, k):
+
+        def insert(root, word):
+            current = root
+            for letter in word:
+                current = current.children[letter]
+
+            current.is_word = True
+            current.freq += 1
+            return current.freq
+
+        root = TrieNode()
+        a_dict = {}
+        res_dict={}
+        answer=[]
+
+        for word in words:
+            freq = insert(root, word)
+            a_dict[word] = freq
+        #keys = a_dict.keys()
+        res_dict =sorted(a_dict.items(),key = lambda x:x[1],reverse=True)
+        for word, count in res_dict:
+            answer.append(word)
+        return answer[:k]
 
 
 if __name__ == "__main__":
