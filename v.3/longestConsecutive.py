@@ -20,7 +20,7 @@ class Solution:
         if not nums:
             return 0
 
-        nums.sort()
+        nums.sort() # python sort 시간복잡도 : O(NlogN)
 
         longest_sequence = 1
         current_sequence = 1
@@ -34,10 +34,6 @@ class Solution:
                     current_sequence = 1
 
         return max(longest_sequence, current_sequence)
-
-
-
-
 
 
 if __name__ == "__main__":
