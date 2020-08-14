@@ -2,6 +2,10 @@
 378. Kth Smallest Element in a Sorted Matrix
 """
 
+### Min-Heap approach
+# O(Klog(N))/O(N)
+# X=min(K,N); X+Klog(X)/O(X)
+
 import heapq
 
 class Solution:
