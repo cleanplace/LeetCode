@@ -33,7 +33,9 @@ class Solution:
         return merged
 
 if __name__ == "__main__":
+
     intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+
     s= Solution()
     result = s.merge(intervals)
     print(result)
