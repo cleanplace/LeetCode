@@ -10,6 +10,7 @@ class Solution:
         h = [(l.val, idx) for idx, l in enumerate(lists) if l]
         heapq.heapify(h)
         head = cur = ListNode(None)
+
         while h:
             val, idx = heapq.heappop(h)
             cur.next = ListNode(val)
