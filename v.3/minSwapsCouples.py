@@ -3,7 +3,7 @@ class Solution(object):
     def minSwapsCouples(self, row):
         N = len(row) / 2
         pairs = [[row[i]/2, row[i+1]/2]
-                 for i in xrange(0, 2*N, 2)
+                 for i in range(0, 2*N, 2)
                  if row[i]/2 != row[i+1]/2]
 
         def swap(a, b, c, d):
@@ -14,8 +14,8 @@ class Solution(object):
             x, y = pairs[i]
             if x == y: return solve(i+1)
 
-            for j in xrange(i+1, len(pairs)):
-                for k in xrange(2):
+            for j in range(i+1, len(pairs)):
+                for k in range(2):
                     if pairs[j][k] == x: jx = j, k
                     if pairs[j][k] == y: jy = j, k
 
@@ -35,11 +35,11 @@ class Solution(object):
 class Solution(object):
     def minSwapsCouples(self, row):
         ans = 0
-        for i in xrange(0, len(row), 2):
+        for i in range(0, len(row), 2):
             x = row[i]
             if row[i+1] == x^1: continue
             ans += 1
-            for j in xrange(i+1, len(row)):
+            for j in range(i+1, len(row)):
                 if row[j] == x^1:
                     row[i+1], row[j] = row[j], row[i+1]
                     break
