@@ -10,17 +10,18 @@ class Solution(object):
     def pathSum(self, root, sum):
         if not root:
             return []
-        res = []
+        result = []
         queue = [(root, root.val, [root.val])]
+
         while queue:
-            curr, val, ls = queue.pop(0)
+            curr, val, ans_list = queue.pop(0)
             if not curr.left and not curr.right and val == sum:
-                res.append(ls)
+                result.append(ans_list)
             if curr.left:
-                queue.append((curr.left, val+curr.left.val, ls+[curr.left.val]))
+                queue.append((curr.left, val+curr.left.val, ans_list+[curr.left.val]))
             if curr.right:
-                queue.append((curr.right, val+curr.right.val, ls+[curr.right.val]))
-        return res
+                queue.append((curr.right, val+curr.right.val, ans_list+[curr.right.val]))
+        return result
 
 if __name__ == "__main__":
     #root = [5, 4, 8, 11, np.nan, 13, 4, 7, 2, np.nan, np.nan, 5, 1]
