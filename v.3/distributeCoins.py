@@ -1,3 +1,10 @@
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 # Depth First Search
 class Solution(object):
     def distributeCoins(self, root):
@@ -13,17 +20,26 @@ class Solution(object):
         return self.ans
 
 # Bottom-up Recursion using Post-order Traversal
-class Solution:
-    def distributeCoins(self, r):
+class Solution(object):
+    def distributeCoins(self,r):
         ops = 0
 
-        def _dist(n):
+        def dist(n):
             nonlocal ops
-            l = _dist(n.left) if n.left else 0
-            r = _dist(n.right) if n.right else 0
+
+            l = dist(n.left) if n.left else 0
+            r = dist(n.right) if n.right else 0
             n.val += (l + r)
             ops += abs(n.val - 1)
             return n.val - 1
 
-        _dist(r)
+        dist(r)
+
         return ops
+
+if __name__ == "__main__":
+
+    root = TreeNode(val=3,left=0, right=0)
+
+    s = Solution()
+    print(s.distributeCoins(root))

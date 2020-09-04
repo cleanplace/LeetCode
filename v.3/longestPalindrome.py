@@ -40,6 +40,6 @@ if __name__ == "__main__":
     input2 = "cbbd"
 
     s = Solution()
-    result = s.longestPalindrome(input1)
+    result = s.longestPalindrome(input2)
 
     print(result)
