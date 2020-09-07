@@ -37,7 +37,8 @@ class Solution(object):
         ans = 0
         for i in range(0, len(row), 2):
             x = row[i]
-            if row[i+1] == x^1: continue
+            if row[i+1] == x^1:
+                continue
             ans += 1
             for j in range(i+1, len(row)):
                 if row[j] == x^1:
@@ -47,6 +48,5 @@ class Solution(object):
 
 if __name__ == "__main__":
     row = [0, 2, 1, 3]
-    #row = [3, 2, 0, 1]
     s = Solution()
     print(s.minSwapsCouples(row))
