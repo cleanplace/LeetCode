@@ -1,38 +1,20 @@
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
+        m, n = len(mat), len(mat[0])
+        rangeSum = [[0] * (n + 1) for _ in range(m + 1)]
+        for i in range(m):
+            for j in range(n):
+                rangeSum[i + 1][j + 1] = rangeSum[i + 1][j] + rangeSum[i][j + 1] - rangeSum[i][j] + mat[i][j]
+        ans = [[0] * n for _ in range(m)]
+        for i in range(m):
+            for j in range(n):
+                r1, c1, r2, c2 = max(0, i - K), max(0, j - K), min(m, i + K + 1), min(n, j + K + 1)
+                ans[i][j] = rangeSum[r2][c2] - rangeSum[r1][c2] - rangeSum[r2][c1] + rangeSum[r1][c1]
+        return ans
 
-        h, w = len(mat), len(mat[0])
-        integral_image = [[0 for y in range(w)] for x in range(h)]
-
-        # building integral image to speed up block sum computation
-        for y in range(0, h):
-            summation = 0
-
-            for x in range(0, w):
-                summation += mat[y][x]
-                integral_image[y][x] = summation
-
-                if y > 0:
-                    integral_image[y][x] += integral_image[y - 1][x]
-
-        # compute block sum by looking-up integral image
-        output_image = [[0 for y in range(w)] for x in range(h)]
-
-        for y in range(h):
-            for x in range(w):
-
-                min_row, max_row = max(0, y - K), min(h - 1, y + K)
-                min_col, max_col = max(0, x - K), min(w - 1, x + K)
-
-                output_image[y][x] = integral_image[max_row][max_col]
-
-                if min_row > 0:
-                    output_image[y][x] -= integral_image[min_row - 1][max_col]
-
-                if min_col > 0:
-                    output_image[y][x] -= integral_image[max_row][min_col - 1]
-
-                if min_col > 0 and min_row > 0:
-                    output_image[y][x] += integral_image[min_row - 1][min_col - 1]
-
-        return output_image
+if __name__ == "__main__":
+    mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    #K = 1
+    K=2
+    s = Solution()
+    print(s.matrixBlockSum(mat,K))
