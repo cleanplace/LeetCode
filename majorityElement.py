@@ -1,4 +1,5 @@
 # HashMap
+# O(N)/O(N)
 # import collections
 #
 # class Solution:
@@ -7,12 +8,14 @@
 #         return max(counts.keys(), key=counts.get)
 
 # Sorting
+# O(NlogN)/O(1)
 # class Solution:
 #     def majorityElement(self, nums):
 #         nums.sort()
 #         return nums[len(nums)//2]
 
 # Divide and Conquer
+#O(NlogN)/O(logN)
 class Solution:
     def majorityElement(self, nums):
         if not nums:
