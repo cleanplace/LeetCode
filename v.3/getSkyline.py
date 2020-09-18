@@ -1,99 +1,33 @@
-class Solution:
-    def getSkyline(self, buildings: 'List[List[int]]') -> 'List[List[int]]':
-        """
-        Divide-and-conquer algorithm to solve skyline problem,
-        which is similar with the merge sort algorithm.
-        """
-        n = len(buildings)
-        # The base cases
-        if n == 0:
-            return []
-        if n == 1:
-            x_start, x_end, y = buildings[0]
-            return [[x_start, y], [x_end, 0]]
-
-            # If there is more than one building,
-        # recursively divide the input into two subproblems.
-        left_skyline = self.getSkyline(buildings[: n // 2])
-        right_skyline = self.getSkyline(buildings[n // 2:])
-
-        # Merge the results of subproblem together.
-        return self.merge_skylines(left_skyline, right_skyline)
-
-    def merge_skylines(self, left, right):
-        """
-        Merge two skylines together.
-        """
-
-        def update_output(x, y):
-            """
-            Update the final output with the new element.
-            """
-            # if skyline change is not vertical -
-            # add the new point
-            if not output or output[-1][0] != x:
-                output.append([x, y])
-            # if skyline change is vertical -
-            # update the last point
-            else:
-                output[-1][1] = y
-
-        def append_skyline(p, lst, n, y, curr_y):
-            """
-            Append the rest of the skyline elements with indice (p, n)
-            to the final output.
-            """
-            while p < n:
-                x, y = lst[p]
-                p += 1
-                if curr_y != y:
-                    update_output(x, y)
-                    curr_y = y
-
-        n_l, n_r = len(left), len(right)
-        p_l = p_r = 0
-        curr_y = left_y = right_y = 0
-        output = []
-
-        # while we're in the region where both skylines are present
-        while p_l < n_l and p_r < n_r:
-            point_l, point_r = left[p_l], right[p_r]
-            # pick up the smallest x
-            if point_l[0] < point_r[0]:
-                x, left_y = point_l
-                p_l += 1
-            else:
-                x, right_y = point_r
-                p_r += 1
-            # max height (i.e. y) between both skylines
-            max_y = max(left_y, right_y)
-            # if there is a skyline change
-            if curr_y != max_y:
-                update_output(x, max_y)
-                curr_y = max_y
-
-        # there is only left skyline
-        append_skyline(p_l, left, n_l, left_y, curr_y)
-
-        # there is only right skyline
-        append_skyline(p_r, right, n_r, right_y, curr_y)
-
-        return output
-
+import heapq
 #다른 풀이
+class Solution:
+    def getSkyline(self, buildings):
+        # 정렬을 하고 시작하기에 쉽고 빠르게 접근 가능
+        # 규칙
+        # 1. 스카이라인이 끊어졌다 -> 다음 L값이 이전 R 값보다 크다
+        # 2. 건물의 높이가 달라졌는데, 이전 H보다 건물의 높이가 낮다 -> 낮아진 지점을 기준으로 현재 L값을 R값으로 업데이트
 
-# def getSkyline(self, buildings):
-#     events = sorted([(L, -H, R) for L, R, H in buildings] + list({(R, 0, None) for _, R, _ in buildings}))
-#     res, hp = [[0, 0]], [(0, float("inf"))]
-#     for x, negH, R in events:
-#         while x >= hp[0][1]:
-#             heapq.heappop(hp)
-#         if negH:
-#             heapq.heappush(hp, (negH, R))
-#         if res[-1][1] + hp[0][0]:
-#             res += [x, -hp[0][0]],
-#     return res[1:]
+        #python은 기본적으로 minheap이기때문에... -H로 놓고 정렬
+        events = [(L, -H, R) for L, R, H in buildings]
+        events += list({(R, 0, 0) for _, R, _ in buildings})
+        events.sort()
 
+        # res: result, [pos, height]
+        # live: heap, [-height, ending position], 스카이라인이 이어졌는지 끊어졌는지 판단
+
+        res = [[0, 0]]
+        live = [(0, float("inf"))]
+        for pos, negH, R in events:
+            # 1, 스카이 라인이 끊어졌다고 판단되는 건물의 L 값을 pop
+            # 2, 건물의 스카인라인이 이어지는지 판별
+            # 3, 건물의 높이를 검사하여 건물의 시작점, 끝점을 규칙2로 업데이트
+            while pos >= live[0][1]: #스카이 라인이 끊어지거나, 건물의 높이가 달라졌다면 pop
+                heapq.heappop(live)
+            if negH:
+                heapq.heappush(live, (negH, R)) #건물의 높이를 검사하여 건물의 시작점, 끝점 업데이트
+            if res[-1][1] + live[0][0]: #값이 0이면 동작하지 않음 : 건물의 높이가 낮아진 경우 -> 다음 while문을 돌면서 이전 R 값으로 update
+                res += [pos, -live[0][0]],
+        return res[1:]
 
 if __name__ == "__main__":
     input =[[2, 9, 10], [3, 7 ,15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]
