@@ -1,5 +1,6 @@
 import heapq
-#다른 풀이
+#O(NlogN)/O(N)
+#힙정렬 사용 : 힙정렬 방식 자체가... 분할정복기법
 class Solution:
     def getSkyline(self, buildings):
         # 정렬을 하고 시작하기에 쉽고 빠르게 접근 가능
