@@ -29,11 +29,13 @@ class Solution:
 
         if a == b:
             return a
+        # if nums.count(a) > len(nums) // 2:
+        #     return a
+        # else:
+        #     return b
+
         return [b, a][nums.count(a) > len(nums) // 2]
 
-    # the idea here is if a pair of elements from the
-    # list is not the same, then delete both, the last
-    # remaining element is the majority number
     def majorityElement_(self, nums):
         count, cand = 0, 0
         for num in nums:
@@ -48,6 +50,6 @@ class Solution:
 
 if __name__ == "__main__":
     #nums = [3, 2, 3]
-    nums = [2, 2, 1, 1, 1, 2, 2]
+    nums = [2, 2, 1, 1, 2, 2]
     s = Solution()
     print(s.majorityElement(nums))
