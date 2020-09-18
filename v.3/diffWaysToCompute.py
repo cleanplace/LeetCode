@@ -1,3 +1,4 @@
+#O(N*logN)/O(N) : 최악 O(N^2)/O(N)
 class Solution:
     def diffWaysToCompute(self, input):
         return self.helper(input, {})
