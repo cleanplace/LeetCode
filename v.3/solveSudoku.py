@@ -4,7 +4,7 @@ class Solution:
         self.val = self.PossibleVals()
         self.Solver()
 
-    def PossibleVals(self):
+    def PossibleVals(self): # 답이 가능한 후보군을 리턴
         a = "123456789"
         d, val = {}, {}
         for i in range(9):
@@ -28,10 +28,10 @@ class Solution:
         nums = self.val[kee]
         for n in nums:
             update = {kee: self.val[kee]}
-            if self.ValidOne(n, kee, update):  # valid choice
+            if self.ValidOne(n, kee, update):  # 가능한 답 한개를 선택
                 if self.Solver():  # keep solving
                     return True
-            self.undo(kee, update)  # invalid choice or didn't solve it => undo
+            self.undo(kee, update)  # 가능하지 않은 답이면 한 단계 돌아감
         return False
 
     def ValidOne(self, n, kee, update):
