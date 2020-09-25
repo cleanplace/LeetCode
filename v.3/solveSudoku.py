@@ -24,14 +24,14 @@ class Solution:
     def Solver(self):
         if len(self.val) == 0:
             return True
-        kee = min(self.val.keys(), key=lambda x: len(self.val[x]))
-        nums = self.val[kee]
+        key = min(self.val.keys(), key=lambda x: len(self.val[x]))# 가능한 답들이 담겨있는 리스트에서 길이가 가장 최소인 리스트 먼저 계산(답 후보군이 될 것들이 적은거)
+        nums = self.val[key]
         for n in nums:
-            update = {kee: self.val[kee]}
-            if self.ValidOne(n, kee, update):  # 가능한 답 한개를 선택
+            update = {key: self.val[key]}
+            if self.ValidOne(n, key, update):  # 가능한 답 한개를 선택
                 if self.Solver():  # keep solving
                     return True
-            self.undo(kee, update)  # 가능하지 않은 답이면 한 단계 돌아감
+            self.undo(key, update)  # 가능하지 않은 답이면 한 단계 돌아감
         return False
 
     def ValidOne(self, n, kee, update):
