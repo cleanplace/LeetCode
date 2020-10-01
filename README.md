@@ -44,41 +44,41 @@ LeetCode 문제 풀이
 |35|[407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|Heap,Breadth-first Search|[O()/O()]()|N:
 |36|[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|Depth-first Search,Union Find|[O()/O()]()|N:
 |37|[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|Hash Table,Heap,Trie|[O()/O()]()|N:
-|38|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|39|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|||[O()/O()]()|N:
-|40|[179. Largest Number](https://leetcode.com/problems/largest-number/)|||[O()/O()]()|N:
-|41|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|||[O()/O()]()|N:
-|42|[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|||[O()/O()]()|N:
-|43|[1. Two Sum](https://leetcode.com/problems/two-sum/)|||[O()/O()]()|N:
-|44|[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|||[O()/O()]()|N:
-|45|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium||[O()/O()]()|N:
-|46|[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|||[O()/O()]()|N:
-|47|[535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium||[O()/O()]()|N:
-|48|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium||[O()/O()]()|N:
-|49|[654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium||[O()/O()]()|N:
-|50|[743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium||[O()/O()]()|N:
-|51|[765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|52|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|53|[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|54|[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|55|[72. Edit Distance](https://leetcode.com/problems/edit-distance/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|56|[79. Word Search](https://leetcode.com/problems/word-search/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|57|[1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|58|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|59|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|60|[139. Word Break](https://leetcode.com/problems/word-break/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|61|[312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|62|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|63|[169. Majority Element](https://leetcode.com/problems/majority-element/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|64|[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:|28|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|65|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|67|[282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium||[O()/O()]()|N:
-|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium||[O()/O()]()|N:
+|38|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|Linked List, Divide and Conquer, Heap|[O()/O()]()|N:
+|39|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|Array,Sort|[O()/O()]()|N:
+|40|[179. Largest Number](https://leetcode.com/problems/largest-number/)|Medium|Sort|[O()/O()]()|N:
+|41|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|Hash Table, Sort|[O()/O()]()|N:
+|42|[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|Binary Search, Heap|[O()/O()]()|N:
+|43|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|Array, Hash Table|[O()/O()]()|N:
+|44|[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|Hash Table|[O()/O()]()|N:
+|45|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|Hash Table, String|[O()/O()]()|N:
+|46|[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|Hash Table, Two Pointer, String, Sliding Window|[O()/O()]()|N:
+|47|[535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|Hash Table, Math|[O()/O()]()|N:
+|48|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|Tree, Depth-first Search|[O()/O()]()|N:
+|49|[654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|Tree|[O()/O()]()|N:
+|50|[743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|Heap, Depth-first Search, Breadth-first Search, Graph|[O()/O()]()|N:
+|51|[765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)|Hard|Greedy, Union Find, Graph|[O()/O()]()|N:
+|52|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium|Tree, Depth-first Search|[O()/O()]()|N:
+|53|[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|Hash Table, Two Pointer, String , Sliding Window|[O()/O()]()|N:
+|54|[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|String, Dynamic Programming|[O()/O()]()|N:
+|55|[72. Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|String, Dynamic Programming|[O()/O()]()|N:
+|56|[79. Word Search](https://leetcode.com/problems/word-search/)|Medium|Array, Backtracking|[O()/O()]()|N:
+|57|[1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium|Array, Sliding Window|[O()/O()]()|N:
+|58|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|Dynamic Programming, Tree|[O()/O()]()|N:
+|59|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Array,Dynamic Programming|[O()/O()]()|N:
+|60|[139. Word Break](https://leetcode.com/problems/word-break/)|Medium|Dynamic Programming|[O()/O()]()|N:
+|61|[312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|Divide and Conquer, Dynamic Programming|[O()/O()]()|N:
+|62|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|Dynamic Programming|[O()/O()]()|N:
+|63|[169. Majority Element](https://leetcode.com/problems/majority-element/)|Easy|Array, Divide and Conquer, Bit Manipulation|[O()/O()]()|N:
+|64|[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|[O()/O()]()|N:|
+|65|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|Binary Search, Divide and Conquer|[O()/O()]()|N:
+|66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|Divide and Conquer|[O()/O()]()|N:
+|67|[282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|Divide and Conquer|[O()/O()]()|N:
+|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|Hash Table, Backtracking|[O()/O()]()|N:
+|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Backtracking,Bit Manipulation|[O()/O()]()|N:
+|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O()/O()]()|N:
+|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O()/O()]()|N:
+|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O()/O()]()|N:
+|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
+|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
 |75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[O()/O()]()|N:
