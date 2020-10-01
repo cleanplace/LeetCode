@@ -74,11 +74,11 @@ LeetCode 문제 풀이
 |65|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|Binary Search, Divide and Conquer|[O()/O()]()|N:
 |66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|Divide and Conquer|[O()/O()]()|N:
 |67|[282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|Divide and Conquer|[O()/O()]()|N:
-|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|Hash Table, Backtracking|[O()/O()]()|N:
-|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Backtracking,Bit Manipulation|[O()/O()]()|N:
-|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O()/O()]()|N:
-|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O()/O()]()|N:
-|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O()/O()]()|N:
+|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|Hash Table, Backtracking|[O(9^M)/O(M*N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/solveSudoku.py)|M:row,N:column
+|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Backtracking,Bit Manipulation|[O(2^N)/O(2^N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/subsets.py)|N:
+|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/rangeBitwiseAnd.py)|N:
+|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O(V+E)/O(V+E)](https://github.com/cleanplace/LeetCode/blob/master/v.3/canFinish.py)|N:
+|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/partitionLabels.py)|N:
 |73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
 |74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
 |75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[O()/O()]()|N:
