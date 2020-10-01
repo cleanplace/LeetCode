@@ -33,44 +33,52 @@ LeetCode 문제 풀이
 |24|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|Array,Binary Search,Divide and Conquer|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
 |25|[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|Hash Table,LinkedList|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
 |26|[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists//)|Easy|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|27|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|28|[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|29|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|Depth-first Search,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|30|[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy||[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|31|[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|32|[1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/implement-queue-using-stacks/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|34|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|35|[407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|36|[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|37|[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|38|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|39|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|40|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|41|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|42|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|43|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|44|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|45|[]()|Medium|Array,Dynamic Programming|[O()/O()]()|N:
-|46|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|47|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|48|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|49|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|50|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|51|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|52|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|53|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|54|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|55|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|56|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|57|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|58|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|59|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|60|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|61|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|62|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|63|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|64|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:|28|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|65|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|66|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
-|67|[](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|27|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Divide and Conquer,Heap,Sort|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|28|[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|Array,Two Pointer,Stack|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|29|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|Depth-first Search,Breadth-first Search,Union Find|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|30|[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|Stack, Design|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|31|[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|Stack, Depth-first Search|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|32|[1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|String,Stack|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Hard|Array,Union Find|[O()/O()]()|N:
+|34|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|Tree|[O()/O()]()|N:
+|35|[407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|Heap,Breadth-first Search|[O()/O()]()|N:
+|36|[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|Depth-first Search,Union Find|[O()/O()]()|N:
+|37|[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|Hash Table,Heap,Trie|[O()/O()]()|N:
+|38|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|39|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|40|[179. Largest Number](https://leetcode.com/problems/largest-number/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|41|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|42|[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|43|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|44|[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|45|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|Array,Dynamic Programming|[O()/O()]()|N:
+|46|[76. Minimum Window Substring]()|||[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|47|[535. Encode and Decode TinyURL](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|48|[113. Path Sum II](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|49|[654. Maximum Binary Tree](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|50|[743. Network Delay Time](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|51|[765. Couples Holding Hands](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|52|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|53|[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|54|[5. Longest Palindromic Substring](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|55|[72. Edit Distance](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|56|[79. Word Search](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|57|[1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|58|[96. Unique Binary Search Trees](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|59|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|60|[139. Word Break](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|61|[312. Burst Balloons](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|62|[1314. Matrix Block Sum](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|63|[169. Majority Element](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|64|[218. The Skyline Problem](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:|28|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|65|[240. Search a 2D Matrix II](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|67|[282. Expression Add Operators](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|68|[37. Sudoku Solver]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|69|[78. Subsets]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|70|[201. Bitwise AND of Numbers Range]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|71|[207. Course Schedule]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|72|[763. Partition Labels]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|73|[]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|74|[]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
+|75|[]()|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)|N:
