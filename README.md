@@ -28,26 +28,26 @@ LeetCode 문제 풀이
 |20|[62. Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|Array,Dynamic Programming|[O()/O()](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)
 |21|[376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|Dynamic Programming,Greedy|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/Wiggle_Subsequence.py)
 |22|[1031. Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|Array|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/maxSum_Two_NoOverlap.py)
-|23|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Medium|LinkedList,Math|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.2/uniquePaths.py)
-|24|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|Array,Binary Search,Divide and Conquer|[O()/O()]()|N:
-|25|[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|Hash Table,LinkedList|[O()/O()]()|N:
-|26|[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists//)|Easy|Array,Dynamic Programming|[O()/O()]()|N:
-|27|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Divide and Conquer,Heap,Sort|[O()/O()]()|N:
-|28|[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|Array,Two Pointer,Stack|[O()/O()]()|N:
-|29|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|Depth-first Search,Breadth-first Search,Union Find|[O()/O()]()|N:
-|30|[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|Stack, Design|[O()/O()]()|N:
-|31|[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|Stack, Depth-first Search|[O()/O()]()|N:
-|32|[1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|String,Stack|[O()/O()]()
-|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Hard|Array,Union Find|[O()/O()]()
-|34|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|Tree|[O()/O()]()
-|35|[407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|Heap,Breadth-first Search|[O()/O()]()
-|36|[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|Depth-first Search,Union Find|[O()/O()]()
-|37|[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|Hash Table,Heap,Trie|[O()/O()]()
-|38|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|Linked List, Divide and Conquer, Heap|[O()/O()]()
-|39|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|Array,Sort|[O()/O()]()
-|40|[179. Largest Number](https://leetcode.com/problems/largest-number/)|Medium|Sort|[O()/O()]()
-|41|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|Hash Table, Sort|[O()/O()]()
-|42|[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|Binary Search, Heap|[O()/O()]()|N:
+|23|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Medium|LinkedList,Math|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/add_two_nums.py)
+|24|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|Array,Binary Search,Divide and Conquer|[O(log (m+n))/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/findMedianSortedArrays.py)
+|25|[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|Hash Table,LinkedList|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/copyRandomList.py)
+|26|[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|Easy|Array,Dynamic Programming|[O(M+N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/getIntersectionNode.py)
+|27|[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|Divide and Conquer,Heap,Sort|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/kClosest.py)
+|28|[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|Array,Two Pointer,Stack|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/trapRainWater1.py)
+|29|[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|Depth-first Search,Breadth-first Search,Union Find|[O(M*N)/O(M*N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/numIslands.py)
+|30|[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|Stack, Design|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/MyQueue.py)
+|31|[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|Stack, Depth-first Search|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/DecodeString.py)
+|32|[1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|String,Stack|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/minRemoveToMakeValid.py)
+|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Hard|Array,Union Find|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/longestConsecutive.py)
+|34|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|Tree|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/invertTree.py)
+|35|[407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|Heap,Breadth-first Search|[O(N*M)/O(N*M)](https://github.com/cleanplace/LeetCode/blob/master/v.3/trapRainWater2.py)
+|36|[547. Friend Circles](https://leetcode.com/problems/friend-circles/)|Medium|Depth-first Search,Union Find|[O(N^2)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/findCircleNum.py)
+|37|[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|Hash Table,Heap,Trie|[O(NlogK)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/topKFrequent.py)
+|38|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|Linked List, Divide and Conquer, Heap|[O(NlogK)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/mergeKLists.py)
+|39|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|Array,Sort|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/mergeIntervals.py)
+|40|[179. Largest Number](https://leetcode.com/problems/largest-number/)|Medium|Sort|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/largestNumber.py)
+|41|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|Hash Table, Sort|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/isAnagram.py)
+|42|[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|Binary Search, Heap|[O(NlogK)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/kthSmallest.py)
 |43|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|Array, Hash Table|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/twoSum.py)
 |44|[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|Hash Table|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/isValidSudoku.py)
 |45|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|Hash Table, String|[O(NKlogK)/O(NK)](https://github.com/cleanplace/LeetCode/blob/master/v.3/groupAnagrams.py)
@@ -78,6 +78,6 @@ LeetCode 문제 풀이
 |70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/rangeBitwiseAnd.py)
 |71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O(V+E)/O(V+E)](https://github.com/cleanplace/LeetCode/blob/master/v.3/canFinish.py)
 |72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/partitionLabels.py)
-|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()
-|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()
-|75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[O()/O()]()
+|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[update]()
+|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[update]()
+|75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[update]()
