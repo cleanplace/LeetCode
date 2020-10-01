@@ -1,5 +1,4 @@
 LeetCode 문제 풀이
-=================
 ------------------------------------------------------------------
 
 - 기간 : 2020.01 ~ 현재 진행 중 
@@ -64,21 +63,21 @@ LeetCode 문제 풀이
 |55|[72. Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|String, Dynamic Programming|[O()/O()]()|N:
 |56|[79. Word Search](https://leetcode.com/problems/word-search/)|Medium|Array, Backtracking|[O()/O()]()|N:
 |57|[1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium|Array, Sliding Window|[O()/O()]()|N:
-|58|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|Dynamic Programming, Tree|[O()/O()]()|N:
-|59|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Array,Dynamic Programming|[O()/O()]()|N:
-|60|[139. Word Break](https://leetcode.com/problems/word-break/)|Medium|Dynamic Programming|[O()/O()]()|N:
-|61|[312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|Divide and Conquer, Dynamic Programming|[O()/O()]()|N:
-|62|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|Dynamic Programming|[O()/O()]()|N:
-|63|[169. Majority Element](https://leetcode.com/problems/majority-element/)|Easy|Array, Divide and Conquer, Bit Manipulation|[O()/O()]()|N:
-|64|[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|[O()/O()]()|N:|
-|65|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|Binary Search, Divide and Conquer|[O()/O()]()|N:
-|66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|Divide and Conquer|[O()/O()]()|N:
-|67|[282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|Divide and Conquer|[O()/O()]()|N:
-|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|Hash Table, Backtracking|[O(9^M)/O(M*N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/solveSudoku.py)|M:row,N:column
-|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Backtracking,Bit Manipulation|[O(2^N)/O(2^N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/subsets.py)|N:
-|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/rangeBitwiseAnd.py)|N:
-|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O(V+E)/O(V+E)](https://github.com/cleanplace/LeetCode/blob/master/v.3/canFinish.py)|N:
-|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/partitionLabels.py)|N:
-|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
-|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()|N:
-|75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[O()/O()]()|N:
+|58|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|Dynamic Programming, Tree|[O(N)/O(1)]()|N:
+|59|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Array,Dynamic Programming|[O(N)/O(1)]()|N:
+|60|[139. Word Break](https://leetcode.com/problems/word-break/)|Medium|Dynamic Programming|[O(N^3)/O(N^2)](https://github.com/cleanplace/LeetCode/blob/master/v.3/numTrees.py)|N:
+|61|[312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|Divide and Conquer, Dynamic Programming|[O(N^3)/O(N^2)]()|N:
+|62|[1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|Dynamic Programming|[O(N*M)/O(N*M)]()|N:
+|63|[169. Majority Element](https://leetcode.com/problems/majority-element/)|Easy|Array, Divide and Conquer, Bit Manipulation|[O(NlogN)/O(logN)](https://github.com/cleanplace/LeetCode/blob/master/v.3/majorityElement.py)
+|64|[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|[O(NlogN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/getSkyline.py)
+|65|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|Binary Search, Divide and Conquer|[O(N*M)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/searchMatrix.py)
+|66|[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|Divide and Conquer|[O(N*logN)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/diffWaysToCompute.py)
+|67|[282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|Divide and Conquer|[O(N^2)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/addOperators.py)
+|68|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|Hash Table, Backtracking|[O(9^M)/O(M*N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/solveSudoku.py)
+|69|[78. Subsets](https://leetcode.com/problems/subsets/)|Medium|Array,Backtracking,Bit Manipulation|[O(2^N)/O(2^N)](https://github.com/cleanplace/LeetCode/blob/master/v.3/subsets.py)
+|70|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|Bit Manipulation|[O(1)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/rangeBitwiseAnd.py)
+|71|[207. Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|Depth-first Search, Breadth-first Search, Graph, Topological Sort|[O(V+E)/O(V+E)](https://github.com/cleanplace/LeetCode/blob/master/v.3/canFinish.py)
+|72|[763. Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|Two Pointers, Greedy|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.3/partitionLabels.py)
+|73|[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()
+|74|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|Depth-first Search,Breadth-first Search|[O()/O()]()
+|75|[690. Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|Hash Table,Depth-first Search,Breadth-first Search|[O()/O()]()
