@@ -1,5 +1,3 @@
-
-# Definition for Employee.
 class Employee:
     def __init__(self, id: int, importance: int, subordinates: List[int]):
         self.id = id
@@ -21,4 +19,5 @@ class Solution:
                             ans += f.importance
                             temp.extend(f.subordinates)
         return ans
+
 
