@@ -20,5 +20,3 @@ if __name__ == "__main__":
     nums=[1,2,3,4]
     a = Solution()
     print(a.productExceptSelf(nums))
-
-
