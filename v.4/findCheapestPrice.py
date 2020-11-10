@@ -1,18 +1,21 @@
 import collections,heapq
 
 def findCheapestPrice(n, flights, src, dst, K):
-    pq, g = [(0,src,K+1)], collections.defaultdict(dict)
+    #graph 그리기
+    g = collections.defaultdict(dict)
+    priority_queue = [(0,src,K+1)]
 
-    for s,d,w in flights:
+    for s, d, w in flights:
         g[s][d] = w
 
-    while pq:
-        cost, s, k = heapq.heappop(pq)
+    #다익스트라 계산
+    while priority_queue:
+        cost, s, k = heapq.heappop(priority_queue)
         if s == dst:
             return cost
         if not k: continue
         for d in g[s]:
-            heapq.heappush(pq, (cost+g[s][d], d, k-1))
+            heapq.heappush(priority_queue, (cost + g[s][d], d, k - 1))
     return -1
 
 if __name__ == "__main__":
