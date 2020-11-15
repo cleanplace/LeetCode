@@ -15,8 +15,8 @@ class Solution:
 
 
 if __name__ == "__main__":
-    #input = "9,3,4,#,#,1,#,#,2,#,6,#,#"
-    input="9,#,#,1"
+    input = "9,3,4,#,#,1,#,#,2,#,6,#,#"
+    #input="9,#,#,1"
 
     s = Solution()
     print(s.isValidSerialization(input))
