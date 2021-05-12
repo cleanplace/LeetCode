@@ -7,7 +7,6 @@ class Solution(object):
 
         tmp_dict = {0: 1}
         sum = 0
-
         ans = 0
 
         for i, n in enumerate(nums):
@@ -27,9 +26,13 @@ if __name__ == "__main__":
     # nums = [1, 1, 1]
     # k = 2
 
-    nums = [1, 2, 3]
+    # nums = [1, 2, 3]
+    nums = [1,2,1,3]
     k = 3
 
     s = Solution()
     print(s.subarraySum(nums,k))
+
+    # Time complexity : O(n)
+    # Space complexity : O(n)
 
