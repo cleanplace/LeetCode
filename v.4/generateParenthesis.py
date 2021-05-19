@@ -25,17 +25,17 @@ class Solution:
 
 
 #카탈랑수의 순열 공식 활용
-# class Solution(object):
-#     def generateParenthesis(self, n):
-#         if n == 0: return ['']
-#         ans = []
-#
-#         for c in range(n):
-#             for left in self.generateParenthesis(c):
-#                 for right in self.generateParenthesis(n-1-c):
-#                     ans.append('({}){}'.format(left, right))
-#         return ans
-#
+class Solution(object):
+    def generateParenthesis(self, n):
+        if n == 0: return ['']
+        ans = []
+
+        for c in range(n):
+            for left in self.generateParenthesis(c):
+                for right in self.generateParenthesis(n-1-c):
+                    ans.append('({}){}'.format(left, right))
+        return ans
+
 
 if __name__ == "__main__":
     n = 3
