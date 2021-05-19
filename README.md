@@ -88,3 +88,4 @@ LeetCode 문제 풀이
 |80|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|Array|[O(N)/O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.4/productExceptSelf.py)
 |81|[937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Easy|String|[]()
 |82|[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|Array, Hash Table|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.4/SubarraySmEqualsK.py)
+|83|[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|String,Backtracking|[O(k^n)/O(k^n)](https://github.com/cleanplace/LeetCode/blob/master/v.4/generateParenthesis.py)
