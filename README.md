@@ -89,3 +89,4 @@ LeetCode 문제 풀이
 |81|[937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Easy|String|[]()
 |82|[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|Array, Hash Table|[O(N)/O(N)](https://github.com/cleanplace/LeetCode/blob/master/v.4/SubarraySmEqualsK.py)
 |83|[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|String,Backtracking|[O(k^n)/O(k^n)](https://github.com/cleanplace/LeetCode/blob/master/v.4/generateParenthesis.py)
+|84|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|Array,Binary Search|[O(logN),O(1)](https://github.com/cleanplace/LeetCode/blob/master/v.4/binary_search.py)
