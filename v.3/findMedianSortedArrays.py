@@ -39,8 +39,13 @@ class Solution:
                 return (max_of_left + min_of_right) / 2.0
 
 if __name__ == "__main__":
-    A = [1, 3]
-    B = [2]
+    #홀수인 경우 예시
+    # A = [1,3,6,7,9]
+    # B = [2,4,5,8]
+
+    #짝수인 경우 예시
+    A = [1, 3, 6, 7, 9]
+    B = [2, 4, 8]
 
     s = Solution()
     result =s.findMedianSortedArrays(A, B)
