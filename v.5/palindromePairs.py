@@ -1,4 +1,3 @@
-
 ## Approach 1: Brute force
 def palindromePairs(self, words: List[str]) -> List[List[int]]:
 
@@ -15,17 +14,17 @@ def palindromePairs(self, words: List[str]) -> List[List[int]]:
     return pairs
 
 
-## Approach 2: Hashing
 
+## Approach 2: Hashing
 class Solution:
-    def palindromePairs(self, words: List[str]) -> List[List[int]]:
+    def palindromePairs(self, words):
 
         def is_palindrome(check):
             return check == check[::-1] #문자열을 거꾸로 출력
 
         words = {word: i for i, word in enumerate(words)}
         valid_pals = []
-        for word, k in words.items():
+        for word, idx in words.items():
             n = len(word)
             for j in range(n + 1):
                 pref = word[:j]
@@ -33,9 +32,17 @@ class Solution:
                 if is_palindrome(pref):
                     back = suf[::-1]
                     if back != word and back in words:
-                        valid_pals.append([words[back], k])
+                        valid_pals.append([words[back], idx])
                 if j != n and is_palindrome(suf):
                     back = pref[::-1]
                     if back != word and back in words:
-                        valid_pals.append([k, words[back]])
+                        valid_pals.append([idx, words[back]])
         return valid_pals
+
+if __name__ == "__main__":
+
+    words = ["abcd", "dcba", "lls", "s", "sssll"]
+
+    s = Solution()
+    print(s.palindromePairs(words))
+
