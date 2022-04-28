@@ -1,8 +1,8 @@
 def findTheWinner(n, k):
-    res = 0
+    prev = 0
     for i in range(1, n + 1):
-        res = (res + k) % i
-    return res + 1
+        prev = (prev + k) % i
+    return prev + 1
 
 if __name__ == "__main__":
     n=5
