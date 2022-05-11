@@ -1,3 +1,4 @@
+#DFS
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         stack = [(root, float("-inf"))]
